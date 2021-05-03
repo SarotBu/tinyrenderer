@@ -1,6 +1,6 @@
 #include "line.h"
 
-void line(int x0, int y0, int x1, int y1, TGAImage &image, TGAColor color){
+void line(int x0, int y0, int x1, int y1, TGAImage &image, const TGAColor color){
 	float dx = (float) (x1 - x0);
 	float dy = (float) (y1 - y0);
 	float diffx, diffy;
